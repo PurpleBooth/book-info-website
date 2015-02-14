@@ -1,0 +1,6 @@
+div(ng-controller="IndexController")
+    h1= title
+    h2 Book list!
+    ul
+        li(ng-repeat="book in books")
+            a(href="#/{{book.isbn}}") {{book.title}}

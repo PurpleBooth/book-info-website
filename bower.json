@@ -1,0 +1,22 @@
+{
+  "name": "00-express-node-npm",
+  "version": "1.0.0",
+  "homepage": "https://github.com/PurpleBooth/Simplest-NodeJS-Application-Possible",
+  "authors": [
+    "Billie Alice Thompson <billie@purplebooth.co.uk>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.10",
+    "angular-route": "~1.3.10",
+    "angular-resource": "~1.3.10"
+  }
+}

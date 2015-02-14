@@ -1,0 +1,26 @@
+div(ng-controller="DetailController")
+  h1= title
+  h2 Book details!
+  p
+    a(href="#/") Back
+    
+  table
+    tr
+      th Title
+      td {{book.title}}
+    tr
+      th Rating
+      td {{book.rating}}
+    tr
+      th Author
+      td {{book.author}}
+    tr
+      th Description
+      td {{book.description}}
+    tr
+      th Cover
+      td
+        img(src="{{book.cover}}")
+    tr
+      th ISBN
+      td {{book.isbn}}
