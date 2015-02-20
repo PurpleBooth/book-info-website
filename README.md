@@ -4,7 +4,7 @@ This is the demo site for the Silex and MVVM talk. It is the component that cont
 
 It's responsibilities are, present a nice user interface, and combine the responses from silex
 
-See it in action: [book-info-website.herokuapp.com](book-info-website.herokuapp.com)
+See it in action: [book-info-website.herokuapp.com](http://book-info-website.herokuapp.com)
 
 ## Getting started
 
