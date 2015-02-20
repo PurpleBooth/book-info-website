@@ -10,16 +10,28 @@ See it in action: [book-info-website.herokuapp.com](http://book-info-website.her
 
 First ensure vagrant and virtualbox are installed.
 
+You'll need the hosts updater plugin.
+
+```
+vagrant plugin install vagrant-hostsupdater
+```
+
+### Start the VM
 ```
 vagrant up
 vagrant ssh
 ```
+### Install the dependencies.
 
-to start the VM
-
+Inside the VM
 ```
 cd /vagrant
 npm install
 ```
+Bower is automatically installed and ran by npm.
 
-to install the dependencies. Bower is automatically installed and ran by npm.
+### Run express
+```
+grunt
+```
+Your service will be running at [book-info-website.herokuapp.com:3000](http://book-info-website.herokuapp.com:3000)
